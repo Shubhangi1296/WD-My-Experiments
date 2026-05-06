@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A professional image gallery website showcasing beautiful photography and visual content.">
+  <title>Gallery - Professional Image Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo">Gallery</div>
+          <ul class="nav-menu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#gallery" class="nav-link">Gallery</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Welcome to Our Gallery</h1>
+        <p>Discover stunning visual content and beautiful photography</p>
+        <a href="#gallery" class="btn btn-primary">View Gallery</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Gallery Section -->
+  <main class="main-content" id="gallery">
+    <section class="gallery-section">
+      <div class="container">
+        <h2>Featured Images</h2>
+        <p class="section-subtitle">Click on any image to view it in full screen</p>
+        
+        <div class="gallery">
+          <a href="#image-1" class="img-box">
+            <img src="1.jpg" alt="Gallery image 1">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-2" class="img-box">
+            <img src="2.jpg" alt="Gallery image 2">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-3" class="img-box">
+            <img src="3.jpg" alt="Gallery image 3">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-4" class="img-box">
+            <img src="4.webp" alt="Gallery image 4">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-5" class="img-box">
+            <img src="5.webp" alt="Gallery image 5">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-6" class="img-box">
+            <img src="6.jpg" alt="Gallery image 6">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-7" class="img-box">
+            <img src="7.jpg" alt="Gallery image 7">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-8" class="img-box">
+            <img src="8.jpg" alt="Gallery image 8">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-9" class="img-box">
+            <img src="9.jpg" alt="Gallery image 9">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-10" class="img-box">
+            <img src="10.jpg" alt="Gallery image 10">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-11" class="img-box">
+            <img src="11.jpg" alt="Gallery image 11">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-12" class="img-box">
+            <img src="12.jpg" alt="Gallery image 12">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-13" class="img-box">
+            <img src="13.jpg" alt="Gallery image 13">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-14" class="img-box">
+            <img src="14.jpg" alt="Gallery image 14">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-15" class="img-box">
+            <img src="15.jpg" alt="Gallery image 15">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-16" class="img-box">
+            <img src="16.jpg" alt="Gallery image 16">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-17" class="img-box">
+            <img src="17.jpg" alt="Gallery image 17">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-18" class="img-box">
+            <img src="18.jpg" alt="Gallery image 18">
+            <div class="img-overlay"></div>
+          </a>
+          <a href="#image-19" class="img-box">
+            <img src="19.jpg" alt="Gallery image 19">
+            <div class="img-overlay"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <h2>About This Gallery</h2>
+        <p>This professional image gallery showcases a collection of carefully curated visual content. Each image is optimized for web viewing and displays seamlessly across all devices.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Image Modals -->
+  <div class="modal" id="image-1">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="1.jpg" alt="Gallery image 1">
+    <div class="modal-nav">
+      <a href="#gallery" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-2" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-2">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="2.jpg" alt="Gallery image 2">
+    <div class="modal-nav">
+      <a href="#image-1" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-3" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-3">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="3.jpg" alt="Gallery image 3">
+    <div class="modal-nav">
+      <a href="#image-2" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-4" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-4">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="4.webp" alt="Gallery image 4">
+    <div class="modal-nav">
+      <a href="#image-3" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-5" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-5">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="5.webp" alt="Gallery image 5">
+    <div class="modal-nav">
+      <a href="#image-4" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-6" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-6">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="6.jpg" alt="Gallery image 6">
+    <div class="modal-nav">
+      <a href="#image-5" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-7" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-7">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="7.jpg" alt="Gallery image 7">
+    <div class="modal-nav">
+      <a href="#image-6" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-8" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-8">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="8.jpg" alt="Gallery image 8">
+    <div class="modal-nav">
+      <a href="#image-7" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-9" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-9">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="9.jpg" alt="Gallery image 9">
+    <div class="modal-nav">
+      <a href="#image-8" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-10" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-10">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="10.jpg" alt="Gallery image 10">
+    <div class="modal-nav">
+      <a href="#image-9" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-11" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-11">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="11.jpg" alt="Gallery image 11">
+    <div class="modal-nav">
+      <a href="#image-10" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-12" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-12">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="12.jpg" alt="Gallery image 12">
+    <div class="modal-nav">
+      <a href="#image-11" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-13" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-13">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="13.jpg" alt="Gallery image 13">
+    <div class="modal-nav">
+      <a href="#image-12" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-14" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-14">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="14.jpg" alt="Gallery image 14">
+    <div class="modal-nav">
+      <a href="#image-13" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-15" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-15">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="15.jpg" alt="Gallery image 15">
+    <div class="modal-nav">
+      <a href="#image-14" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-16" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-16">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="16.jpg" alt="Gallery image 16">
+    <div class="modal-nav">
+      <a href="#image-15" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-17" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-17">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="17.jpg" alt="Gallery image 17">
+    <div class="modal-nav">
+      <a href="#image-16" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-18" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-18">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="18.jpg" alt="Gallery image 18">
+    <div class="modal-nav">
+      <a href="#image-17" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#image-19" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <div class="modal" id="image-19">
+    <a href="#gallery" class="modal-close">&times;</a>
+    <img src="19.jpg" alt="Gallery image 19">
+    <div class="modal-nav">
+      <a href="#image-18" class="nav-btn prev">❮</a>
+      <a href="#gallery" class="nav-btn close">✕ Close</a>
+      <a href="#gallery" class="nav-btn next">❯</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Gallery</h3>
+          <p>Professional image showcase and portfolio.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Email: info@gallery.com</p>
+          <p>Phone: 1234567890</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Gallery. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
